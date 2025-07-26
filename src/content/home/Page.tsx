@@ -9,8 +9,10 @@ export default function HomePage() {
           <h2 className='text-3xl md:text-4xl font-bold mb-8 text-slate-900 dark:text-white'>
             Interactive Layout Demo
           </h2>
-          <p className='text-xl text-slate-600 dark:text-slate-300 mb-12 max-w-2xl mx-auto'>
-            Click through the navigation above to experience how different layouts can share headers or completely transform the page experience.
+          <p className='text-xl text-slate-800 dark:text-slate-200 mb-12 max-w-2xl mx-auto'>
+            Click through the navigation above to experience how different
+            layouts can share headers or completely transform the page
+            experience.
           </p>
 
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
@@ -23,7 +25,7 @@ export default function HomePage() {
               <h3 className='text-xl font-bold mb-3 text-slate-900 dark:text-white'>
                 Same Header
               </h3>
-              <p className='text-slate-600 dark:text-slate-400 text-sm'>
+              <p className='text-slate-700 dark:text-slate-300 text-sm'>
                 Uses identical layout → No header shift when navigating
               </p>
             </Link>
@@ -37,7 +39,7 @@ export default function HomePage() {
               <h3 className='text-xl font-bold mb-3 text-slate-900 dark:text-white'>
                 Modified Header
               </h3>
-              <p className='text-slate-600 dark:text-slate-400 text-sm'>
+              <p className='text-slate-700 dark:text-slate-300 text-sm'>
                 Same links, different layout & header styling
               </p>
             </Link>
@@ -51,7 +53,7 @@ export default function HomePage() {
               <h3 className='text-xl font-bold mb-3 text-slate-900 dark:text-white'>
                 Minimal Layout
               </h3>
-              <p className='text-slate-600 dark:text-slate-400 text-sm'>
+              <p className='text-slate-700 dark:text-slate-300 text-sm'>
                 Completely different layout, minimal header
               </p>
             </Link>
@@ -66,7 +68,7 @@ export default function HomePage() {
             <h2 className='text-3xl md:text-4xl font-bold mb-6 text-slate-900 dark:text-white'>
               How Dynamic Layouts Work
             </h2>
-            <p className='text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto'>
+            <p className='text-xl text-slate-700 dark:text-slate-200 max-w-3xl mx-auto'>
               One configuration change transforms the entire page experience
             </p>
           </div>
@@ -85,8 +87,9 @@ export default function HomePage() {
                     <h4 className='font-semibold text-slate-900 dark:text-white mb-2'>
                       Same Layout = No Shift
                     </h4>
-                    <p className='text-slate-600 dark:text-slate-400'>
-                      Pages using the same layout share identical header behavior - no layout shift when navigating
+                    <p className='text-slate-800 dark:text-slate-200'>
+                      Pages using the same layout share identical header
+                      behavior - no layout shift when navigating
                     </p>
                   </div>
                 </div>
@@ -99,8 +102,9 @@ export default function HomePage() {
                     <h4 className='font-semibold text-slate-900 dark:text-white mb-2'>
                       Flexible Styling
                     </h4>
-                    <p className='text-slate-600 dark:text-slate-400'>
-                      Different layouts can style headers differently while keeping the same navigation
+                    <p className='text-slate-800 dark:text-slate-200'>
+                      Different layouts can style headers differently while
+                      keeping the same navigation
                     </p>
                   </div>
                 </div>
@@ -113,8 +117,9 @@ export default function HomePage() {
                     <h4 className='font-semibold text-slate-900 dark:text-white mb-2'>
                       Complete Control
                     </h4>
-                    <p className='text-slate-600 dark:text-slate-400'>
-                      From subtle variations to complete layout overhauls - all through configuration
+                    <p className='text-slate-800 dark:text-slate-200'>
+                      From subtle variations to complete layout overhauls - all
+                      through configuration
                     </p>
                   </div>
                 </div>
@@ -125,7 +130,7 @@ export default function HomePage() {
               <div className='text-green-400 mb-4'>
                 {/* Simple layout configuration */}
               </div>
-              <pre className='text-slate-300'>{`// Same layout = consistent header
+              <pre className='text-slate-100'>{`// Same layout = consistent header
 export const pageConfig = {
   layout: 'landing', // ← Same as home
   header: {

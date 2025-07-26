@@ -12,7 +12,7 @@ export default function DifferentLayoutPage() {
               <span className='text-sm font-semibold text-green-800 dark:text-green-200'>
                 Completely Different Layout!
               </span>
-              <span className='text-green-700 dark:text-green-300 text-xs ml-2'>
+              <span className='text-green-800 dark:text-green-200 text-xs ml-2'>
                 Minimal header, no hero, content-focused design
               </span>
             </div>
@@ -26,8 +26,10 @@ export default function DifferentLayoutPage() {
             <h1 className='text-4xl md:text-5xl font-bold mb-6 text-slate-900 dark:text-white'>
               Minimal Layout Experience
             </h1>
-            <p className='text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto'>
-              Notice how dramatically different this page looks while still maintaining the same navigation links. Perfect for content-focused experiences.
+            <p className='text-lg text-slate-700 dark:text-slate-200 max-w-2xl mx-auto'>
+              Notice how dramatically different this page looks while still
+              maintaining the same navigation links. Perfect for content-focused
+              experiences.
             </p>
           </div>
 
@@ -51,7 +53,7 @@ export default function DifferentLayoutPage() {
                     <div className='h-2 bg-slate-200 dark:bg-slate-700 rounded'></div>
                   </div>
                 </div>
-                <p className='text-sm text-slate-600 dark:text-slate-400'>
+                <p className='text-sm text-slate-800 dark:text-slate-200'>
                   Large hero, features, CTA sections
                 </p>
               </div>
@@ -69,7 +71,7 @@ export default function DifferentLayoutPage() {
                     <div className='h-3 bg-slate-200 dark:bg-slate-700 rounded'></div>
                   </div>
                 </div>
-                <p className='text-sm text-slate-600 dark:text-slate-400'>
+                <p className='text-sm text-slate-800 dark:text-slate-200'>
                   Balanced content and navigation
                 </p>
               </div>
@@ -87,7 +89,7 @@ export default function DifferentLayoutPage() {
                     <div className='h-1 bg-slate-200 dark:bg-slate-700 rounded'></div>
                   </div>
                 </div>
-                <p className='text-sm text-green-700 dark:text-green-400 font-medium'>
+                <p className='text-sm text-green-700 dark:text-green-300 font-medium'>
                   Content-first, minimal distractions
                 </p>
               </div>
@@ -110,7 +112,7 @@ export default function DifferentLayoutPage() {
                     <h3 className='font-semibold text-slate-900 dark:text-white mb-1'>
                       Compact Header
                     </h3>
-                    <p className='text-slate-600 dark:text-slate-400 text-sm'>
+                    <p className='text-slate-800 dark:text-slate-200 text-sm'>
                       Minimal variant with smaller padding and simpler styling
                     </p>
                   </div>
@@ -124,7 +126,7 @@ export default function DifferentLayoutPage() {
                     <h3 className='font-semibold text-slate-900 dark:text-white mb-1'>
                       No Hero Section
                     </h3>
-                    <p className='text-slate-600 dark:text-slate-400 text-sm'>
+                    <p className='text-slate-800 dark:text-slate-200 text-sm'>
                       Content starts immediately - no large banner or graphics
                     </p>
                   </div>
@@ -138,7 +140,7 @@ export default function DifferentLayoutPage() {
                     <h3 className='font-semibold text-slate-900 dark:text-white mb-1'>
                       Simplified Footer
                     </h3>
-                    <p className='text-slate-600 dark:text-slate-400 text-sm'>
+                    <p className='text-slate-800 dark:text-slate-200 text-sm'>
                       Essential links only, no newsletter or social media
                     </p>
                   </div>
@@ -176,7 +178,7 @@ export default function DifferentLayoutPage() {
             <div className='text-green-400 mb-4'>
               {/* Minimal layout configuration */}
             </div>
-            <pre className='text-slate-300'>{`// Minimal layout configuration
+            <pre className='text-slate-100'>{`// Minimal layout configuration
 export const pageConfig = {
   layout: 'minimal',      // ← Different layout entirely
   header: {
@@ -208,7 +210,7 @@ export const pageConfig = {
                 <h3 className='font-semibold text-slate-900 dark:text-white mb-2'>
                   Faster Loading
                 </h3>
-                <p className='text-slate-600 dark:text-slate-400 text-sm'>
+                <p className='text-slate-800 dark:text-slate-200 text-sm'>
                   Less DOM elements = faster rendering and better performance
                 </p>
               </div>
@@ -218,7 +220,7 @@ export const pageConfig = {
                 <h3 className='font-semibold text-slate-900 dark:text-white mb-2'>
                   Better Focus
                 </h3>
-                <p className='text-slate-600 dark:text-slate-400 text-sm'>
+                <p className='text-slate-800 dark:text-slate-200 text-sm'>
                   Users concentrate on content without visual distractions
                 </p>
               </div>
@@ -228,7 +230,7 @@ export const pageConfig = {
                 <h3 className='font-semibold text-slate-900 dark:text-white mb-2'>
                   Mobile Optimized
                 </h3>
-                <p className='text-slate-600 dark:text-slate-400 text-sm'>
+                <p className='text-slate-800 dark:text-slate-200 text-sm'>
                   Clean design works especially well on small screens
                 </p>
               </div>
@@ -240,8 +242,10 @@ export const pageConfig = {
             <h3 className='text-2xl font-semibold mb-4 text-slate-900 dark:text-white'>
               🎉 Demo Complete!
             </h3>
-            <p className='text-slate-600 dark:text-slate-300 mb-6 max-w-2xl mx-auto'>
-              You&apos;ve seen how Dynamic Layouts can provide perfect consistency when needed, and complete flexibility when desired - all through simple configuration changes.
+            <p className='text-slate-800 dark:text-slate-200 mb-6 max-w-2xl mx-auto'>
+              You&apos;ve seen how Dynamic Layouts can provide perfect
+              consistency when needed, and complete flexibility when desired -
+              all through simple configuration changes.
             </p>
 
             <div className='flex flex-col sm:flex-row gap-4 justify-center'>

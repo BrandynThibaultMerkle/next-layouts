@@ -27,7 +27,7 @@ export const pagesConfig: PagesConfig = {
     },
     social: {
       twitter: 'https://twitter.com/yourhandle',
-      github: 'https://github.com/yourusername',
+      github: 'https://github.com/BrandynThibaultMerkle/next-layouts',
       linkedin: 'https://linkedin.com/in/yourprofile',
     },
     theme: {

@@ -14,7 +14,11 @@ export const homePageConfig: PageConfig = {
     navigation: demoNavigation,
     buttons: [
       { label: 'View Demo', href: '/same-header', variant: 'primary' },
-      { label: 'GitHub', href: 'https://github.com', variant: 'outline' },
+      {
+        label: 'GitHub',
+        href: 'https://github.com/BrandynThibaultMerkle/next-layouts',
+        variant: 'outline',
+      },
     ],
     showAuth: false,
   },

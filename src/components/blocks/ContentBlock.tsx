@@ -28,7 +28,7 @@ export function ContentBlock({
       <div
         className={`container mx-auto ${maxWidthClasses[maxWidth]} ${textAlignClasses[textAlign]}`}>
         <div
-          className='prose prose-gray dark:prose-invert max-w-none'
+          className='prose prose-gray  dark:prose-invert max-w-none'
           dangerouslySetInnerHTML={{ __html: content }}
         />
       </div>

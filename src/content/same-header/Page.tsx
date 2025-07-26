@@ -12,8 +12,9 @@ export default function SameHeaderPage() {
               <h3 className='text-lg font-semibold text-green-800 dark:text-green-200'>
                 Perfect! No Header Layout Shift
               </h3>
-              <p className='text-green-700 dark:text-green-300 text-sm'>
-                This page uses the same &quot;landing&quot; layout as the home page - notice the header stayed exactly the same
+              <p className='text-green-800 dark:text-green-200 text-sm'>
+                This page uses the same &quot;landing&quot; layout as the home
+                page - notice the header stayed exactly the same
               </p>
             </div>
           </div>
@@ -26,8 +27,9 @@ export default function SameHeaderPage() {
             <h1 className='text-4xl md:text-5xl font-bold mb-6 text-slate-900 dark:text-white'>
               Layout Consistency in Action
             </h1>
-            <p className='text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto'>
-              When pages share the same layout configuration, users get a seamless, consistent experience with no unexpected layout shifts.
+            <p className='text-xl text-slate-700 dark:text-slate-200 max-w-2xl mx-auto'>
+              When pages share the same layout configuration, users get a
+              seamless, consistent experience with no unexpected layout shifts.
             </p>
           </div>
 
@@ -43,9 +45,13 @@ export default function SameHeaderPage() {
                   🏠 Home Page
                 </h3>
                 <div className='bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg'>
-                  <code className='text-sm'>layout: &apos;landing&apos;</code>
+                  <code className='text-sm text-slate-800 dark:text-slate-200'>
+                    layout: &apos;landing&apos;
+                  </code>
                   <br />
-                  <code className='text-sm'>variant: &apos;expanded&apos;</code>
+                  <code className='text-sm text-slate-800 dark:text-slate-200'>
+                    variant: &apos;expanded&apos;
+                  </code>
                 </div>
               </div>
 
@@ -54,9 +60,13 @@ export default function SameHeaderPage() {
                   📖 This Page
                 </h3>
                 <div className='bg-green-50 dark:bg-green-900/20 p-4 rounded-lg'>
-                  <code className='text-sm'>layout: &apos;landing&apos;</code>
+                  <code className='text-sm text-slate-800 dark:text-slate-200'>
+                    layout: &apos;landing&apos;
+                  </code>
                   <br />
-                  <code className='text-sm'>variant: &apos;expanded&apos;</code>
+                  <code className='text-sm text-slate-800 dark:text-slate-200'>
+                    variant: &apos;expanded&apos;
+                  </code>
                 </div>
               </div>
             </div>
@@ -65,8 +75,9 @@ export default function SameHeaderPage() {
               <h4 className='font-semibold text-green-800 dark:text-green-200 mb-2'>
                 Result: Zero Layout Shift!
               </h4>
-              <p className='text-green-700 dark:text-green-300 text-sm'>
-                Same layout configuration = identical header behavior and positioning
+              <p className='text-green-800 dark:text-green-200 text-sm'>
+                Same layout configuration = identical header behavior and
+                positioning
               </p>
             </div>
           </div>
@@ -83,8 +94,9 @@ export default function SameHeaderPage() {
                 <h3 className='font-semibold text-slate-900 dark:text-white mb-2'>
                   Better UX
                 </h3>
-                <p className='text-slate-600 dark:text-slate-400 text-sm'>
-                  No jarring layout shifts that confuse users or break their flow
+                <p className='text-slate-800 dark:text-slate-200 text-sm'>
+                  No jarring layout shifts that confuse users or break their
+                  flow
                 </p>
               </div>
 
@@ -93,8 +105,9 @@ export default function SameHeaderPage() {
                 <h3 className='font-semibold text-slate-900 dark:text-white mb-2'>
                   Performance
                 </h3>
-                <p className='text-slate-600 dark:text-slate-400 text-sm'>
-                  Browser can optimize rendering when layout structure is consistent
+                <p className='text-slate-800 dark:text-slate-200 text-sm'>
+                  Browser can optimize rendering when layout structure is
+                  consistent
                 </p>
               </div>
 
@@ -103,7 +116,7 @@ export default function SameHeaderPage() {
                 <h3 className='font-semibold text-slate-900 dark:text-white mb-2'>
                   Predictable
                 </h3>
-                <p className='text-slate-600 dark:text-slate-400 text-sm'>
+                <p className='text-slate-800 dark:text-slate-200 text-sm'>
                   Users know exactly where navigation elements will be
                 </p>
               </div>
@@ -115,10 +128,11 @@ export default function SameHeaderPage() {
             <h3 className='text-xl font-semibold mb-4 text-slate-900 dark:text-white'>
               Now Try Something Different
             </h3>
-            <p className='text-slate-600 dark:text-slate-300 mb-6'>
-              Click the next demo to see how headers can be styled differently while keeping the same navigation
+            <p className='text-slate-800 dark:text-slate-200 mb-6'>
+              Click the next demo to see how headers can be styled differently
+              while keeping the same navigation
             </p>
-            
+
             <Link
               href='/modified-header'
               className='inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors'>

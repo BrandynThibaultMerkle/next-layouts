@@ -12,8 +12,10 @@ export default function ModifiedHeaderPage() {
               <h3 className='text-lg font-semibold text-amber-800 dark:text-amber-200'>
                 Notice the Header Style Change!
               </h3>
-              <p className='text-amber-700 dark:text-amber-300 text-sm'>
-                Same navigation links, but different layout (&quot;default&quot; vs &quot;landing&quot;), variant (&quot;default&quot; vs &quot;expanded&quot;), and auth buttons enabled
+              <p className='text-amber-800 dark:text-amber-200 text-sm'>
+                Same navigation links, but different layout (&quot;default&quot;
+                vs &quot;landing&quot;), variant (&quot;default&quot; vs
+                &quot;expanded&quot;), and auth buttons enabled
               </p>
             </div>
           </div>
@@ -26,8 +28,9 @@ export default function ModifiedHeaderPage() {
             <h1 className='text-4xl md:text-5xl font-bold mb-6 text-slate-900 dark:text-white'>
               Flexible Header Styling
             </h1>
-            <p className='text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto'>
-              Keep the same navigation links while completely changing the header&apos;s appearance and functionality.
+            <p className='text-xl text-slate-700 dark:text-slate-200 max-w-2xl mx-auto'>
+              Keep the same navigation links while completely changing the
+              header&apos;s appearance and functionality.
             </p>
           </div>
 
@@ -43,10 +46,26 @@ export default function ModifiedHeaderPage() {
                   🏠 Home & Same Header Pages
                 </h3>
                 <div className='bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg space-y-2'>
-                  <div><code className='text-sm'>layout: &apos;landing&apos;</code></div>
-                  <div><code className='text-sm'>variant: &apos;expanded&apos;</code></div>
-                  <div><code className='text-sm'>showAuth: false</code></div>
-                  <div><code className='text-sm'>buttons: [&apos;View Demo&apos;, &apos;GitHub&apos;]</code></div>
+                  <div>
+                    <code className='text-sm text-slate-800 dark:text-slate-200'>
+                      layout: &apos;landing&apos;
+                    </code>
+                  </div>
+                  <div>
+                    <code className='text-sm text-slate-800 dark:text-slate-200'>
+                      variant: &apos;expanded&apos;
+                    </code>
+                  </div>
+                  <div>
+                    <code className='text-sm text-slate-800 dark:text-slate-200'>
+                      showAuth: false
+                    </code>
+                  </div>
+                  <div>
+                    <code className='text-sm text-slate-800 dark:text-slate-200'>
+                      buttons: [&apos;View Demo&apos;, &apos;GitHub&apos;]
+                    </code>
+                  </div>
                 </div>
               </div>
 
@@ -55,10 +74,26 @@ export default function ModifiedHeaderPage() {
                   🎨 This Page
                 </h3>
                 <div className='bg-amber-50 dark:bg-amber-900/20 p-4 rounded-lg space-y-2'>
-                  <div><code className='text-sm'>layout: &apos;default&apos;</code></div>
-                  <div><code className='text-sm'>variant: &apos;default&apos;</code></div>
-                  <div><code className='text-sm'>showAuth: true</code></div>
-                  <div><code className='text-sm'>buttons: [&apos;Dashboard&apos;, &apos;Settings&apos;]</code></div>
+                  <div>
+                    <code className='text-sm text-slate-800 dark:text-slate-200'>
+                      layout: &apos;default&apos;
+                    </code>
+                  </div>
+                  <div>
+                    <code className='text-sm text-slate-800 dark:text-slate-200'>
+                      variant: &apos;default&apos;
+                    </code>
+                  </div>
+                  <div>
+                    <code className='text-sm text-slate-800 dark:text-slate-200'>
+                      showAuth: true
+                    </code>
+                  </div>
+                  <div>
+                    <code className='text-sm text-slate-800 dark:text-slate-200'>
+                      buttons: [&apos;Dashboard&apos;, &apos;Settings&apos;]
+                    </code>
+                  </div>
                 </div>
               </div>
             </div>
@@ -67,7 +102,7 @@ export default function ModifiedHeaderPage() {
               <h4 className='font-semibold text-amber-800 dark:text-amber-200 mb-2'>
                 🔗 But Navigation Links Stay the Same!
               </h4>
-              <p className='text-amber-700 dark:text-amber-300 text-sm'>
+              <p className='text-amber-800 dark:text-amber-200 text-sm'>
                 Home • Same Header • Modified Header • Different Layout
               </p>
             </div>
@@ -85,7 +120,7 @@ export default function ModifiedHeaderPage() {
                 <h3 className='font-semibold text-slate-900 dark:text-white mb-2'>
                   Header Size
                 </h3>
-                <p className='text-slate-600 dark:text-slate-400 text-sm'>
+                <p className='text-slate-800 dark:text-slate-200 text-sm'>
                   Compact &quot;default&quot; variant vs expanded variant
                 </p>
               </div>
@@ -95,7 +130,7 @@ export default function ModifiedHeaderPage() {
                 <h3 className='font-semibold text-slate-900 dark:text-white mb-2'>
                   Auth Buttons
                 </h3>
-                <p className='text-slate-600 dark:text-slate-400 text-sm'>
+                <p className='text-slate-800 dark:text-slate-200 text-sm'>
                   Sign In / Sign Up buttons now visible
                 </p>
               </div>
@@ -105,7 +140,7 @@ export default function ModifiedHeaderPage() {
                 <h3 className='font-semibold text-slate-900 dark:text-white mb-2'>
                   Action Buttons
                 </h3>
-                <p className='text-slate-600 dark:text-slate-400 text-sm'>
+                <p className='text-slate-800 dark:text-slate-200 text-sm'>
                   Different CTAs for different contexts
                 </p>
               </div>
@@ -115,8 +150,9 @@ export default function ModifiedHeaderPage() {
                 <h3 className='font-semibold text-slate-900 dark:text-white mb-2'>
                   Layout Type
                 </h3>
-                <p className='text-slate-600 dark:text-slate-400 text-sm'>
-                  &quot;default&quot; layout vs &quot;landing&quot; layout structure
+                <p className='text-slate-800 dark:text-slate-200 text-sm'>
+                  &quot;default&quot; layout vs &quot;landing&quot; layout
+                  structure
                 </p>
               </div>
             </div>
@@ -134,8 +170,9 @@ export default function ModifiedHeaderPage() {
                 <h3 className='text-xl font-bold mb-3 text-slate-900 dark:text-white'>
                   Marketing Pages
                 </h3>
-                <p className='text-slate-600 dark:text-slate-400'>
-                  Large, prominent headers with marketing CTAs and no auth clutter
+                <p className='text-slate-800 dark:text-slate-200'>
+                  Large, prominent headers with marketing CTAs and no auth
+                  clutter
                 </p>
               </div>
 
@@ -144,7 +181,7 @@ export default function ModifiedHeaderPage() {
                 <h3 className='text-xl font-bold mb-3 text-slate-900 dark:text-white'>
                   App Interface
                 </h3>
-                <p className='text-slate-600 dark:text-slate-400'>
+                <p className='text-slate-800 dark:text-slate-200'>
                   Compact headers with auth options and app-specific actions
                 </p>
               </div>
@@ -154,7 +191,7 @@ export default function ModifiedHeaderPage() {
                 <h3 className='text-xl font-bold mb-3 text-slate-900 dark:text-white'>
                   Admin Panels
                 </h3>
-                <p className='text-slate-600 dark:text-slate-400'>
+                <p className='text-slate-800 dark:text-slate-200'>
                   Utilitarian headers focused on functionality over aesthetics
                 </p>
               </div>
@@ -166,7 +203,7 @@ export default function ModifiedHeaderPage() {
             <div className='text-green-400 mb-4'>
               {/* Easy header customization */}
             </div>
-            <pre className='text-slate-300'>{`// Marketing header (Home/Same Header)
+            <pre className='text-slate-100'>{`// Marketing header (Home/Same Header)
 header: {
   variant: 'expanded',    // ← Larger, more prominent
   navigation: demoNavigation,
@@ -194,10 +231,11 @@ header: {
             <h3 className='text-xl font-semibold mb-4 text-slate-900 dark:text-white'>
               See a Completely Different Layout
             </h3>
-            <p className='text-slate-600 dark:text-slate-300 mb-6'>
-              Now try the minimal layout to see how dramatically different a page can look
+            <p className='text-slate-800 dark:text-slate-200 mb-6'>
+              Now try the minimal layout to see how dramatically different a
+              page can look
             </p>
-            
+
             <Link
               href='/different-layout'
               className='inline-flex items-center justify-center px-6 py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition-colors'>
